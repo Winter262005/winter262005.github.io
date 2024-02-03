@@ -1,9 +1,4 @@
 body{
-  color: blue;
-}
-.gradient-text {
   background-image: linear-gradient(to bottom, red, yellow);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: blue;
 }
