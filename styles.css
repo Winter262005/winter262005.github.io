@@ -1,7 +1,4 @@
-body{
-  color: white;
-}
-.background{
+body {
   height: 100vh;
-  linear-gradient(#4fff00, #c3ff77);
+  background: linear-gradient(#4fff00, #6affac); 
 }
