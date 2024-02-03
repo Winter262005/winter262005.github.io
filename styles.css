@@ -2,6 +2,6 @@ body{
   color: white;
 }
 .background{
+  height: 100vh;
   linear-gradient(#4fff00, #c3ff77);
-  height: 100%;
 }
