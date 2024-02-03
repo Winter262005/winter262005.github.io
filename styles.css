@@ -1,6 +1,7 @@
 body{
   color: white;
 }
-#grad{
-  background-image: linear-gradient(to bottom right, green, white);
+.background{
+  linear-gradient(to bottom right, #4fff00, #c3ff77);
+  height: 100%;
 }
