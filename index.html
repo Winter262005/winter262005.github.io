@@ -20,6 +20,18 @@ body {
   text-align: center;
   background: #000;
   color: #00cd00;
+  position: relative;
+  overflow: hidden;
+}
+
+.header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 /* Increase the font size of the heading */
@@ -90,7 +102,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #000;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -112,46 +124,44 @@ body {
 <body>
 
 <div class="header">
+  <video autoplay loop muted playsinline>
+    <source src="https://github.com/Winter262005/winter262005.github.io/blob/main/video%20(1080p).mp4" type="video/mp4">
+  </video>
   <h1>welcome.</h1>
   <p>a website created by me.</p>
 </div>
 
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
+  <a href="#">Languages</a>
+  <a href="#">Music</a>
+  <a href="#">Photography</a>
+  <a href="#" class="right">Home</a>
 </div>
 
 <div class="row">
   <div class="side">
     <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
+    <h5>Bio:</h5>
+    <div class="fakeimg" style="height:100px; width:80px; position:absolute; right: 70px;">Image</div>
+    <p>Winter aka Shubham Chaudhari👋<br>VITB '27🎓<br>Music🎸<br>Photography📸</p>
   </div>
   <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
+    <h2>Languages</h2>
+    <h5>Projects and games created</h5>
     <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p>I have learnt* Some Programming Languages including C++, Python, HTML,CSS(ik these are not a prog. lang., but still),JavaScript, etc.<br>*('Learnt' here does not imply I have mastered these)</p>
+    <p>I like coding in C++ and python, which are obviously my strongest languages. I tried creating a Payroll Management system, a library management system, a game of Tic-Tac-Toe in C++, and a game of Rock,Paper,Scissors in Python. Not much🤷‍♂️</p>
     <br>
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Sep 2, 2017</h5>
+    <h2>My Works</h2>
+    <h5>Some shit I created to quell my boredom</h5>
     <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p>I love Music, and have contributed a wee bit to it. I create music (on my own, ofc) and post it on YouTube and Spotify.</p>
+    <p>I also like to click random pictures of anything i find beautiful or interesting, or downright ridiculous.</p>
   </div>
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <h2 style="color: #00cd00">end of webpage.</h2>
 </div>
 
 </body>
