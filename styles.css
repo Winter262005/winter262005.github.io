@@ -4,7 +4,8 @@
        url('freedom-10em-webfont.woff') format('woff');
 }
 
-head {
+div.header {
   font-family: 'MyCustomFont', fallback, sans-serif;
 }
+
 
