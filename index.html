@@ -159,5 +159,16 @@ body {
   <h2 style="color: #ff2a6d">end of webpage.</h2>
 </div>
 <script src="scripts.js"></script>
+<div id="message" style="display: none;">
+    Please switch to a desktop device for the best experience.
+    </div>
+
+    <script>
+        var ua = navigator.userAgent.toLowerCase();
+        var isAndroid = ua.indexOf("android") > -1;
+        if(isAndroid) {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
 </body>
 </html>
