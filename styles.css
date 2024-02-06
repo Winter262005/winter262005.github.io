@@ -8,4 +8,6 @@ div.header {
   font-family: 'MyCustomFont', fallback, sans-serif;
 }
 
-
+div.footer {
+  font-family: 'MyCustomFont', fallback, sans-serif;
+}
