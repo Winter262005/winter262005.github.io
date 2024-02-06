@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('MyCustomFont.woff2') format('woff2'),
-       url('MyCustomFont.woff') format('woff');
+  src: url('freedom-10em-webfont.woff2') format('woff2'),
+       url('freedom-10em-webfont.woff') format('woff');
 }
 
-body {
+head {
   font-family: 'MyCustomFont', fallback, sans-serif;
 }
 
